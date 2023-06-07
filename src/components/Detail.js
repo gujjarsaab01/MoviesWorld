@@ -28,7 +28,7 @@ const Detail = () => {
       setLoading(false);
     }
     getData();
-  }, []);
+  }, [id]);
   return (
     <div className="p-4 mt-4 w-full flex flex-col md:flex-row items-center md:items-start justify-center">
       {loading ? (
@@ -37,7 +37,7 @@ const Detail = () => {
         </div>
       ) : (
         <>
-          <img src={data.image} className="md:sticky top-20 h-96" />
+          <img src={data.image} alt='' className="md:sticky top-20 h-96" />
           <div className="md:ml-4 ml-0  w-full md:w-1/2">
             <h1 className="text-3xl text-gray-500 font-bold font-serif">
               {data.title}
