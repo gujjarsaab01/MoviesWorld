@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAyg0iFesWdPLzoTG1EGeO_feEMOvVbl4M",
+  apiKey: "process.env.REACT_APP_API_KEY",
   authDomain: "filmyverse-e19ee.firebaseapp.com",
   projectId: "filmyverse-e19ee",
   storageBucket: "filmyverse-e19ee.appspot.com",
