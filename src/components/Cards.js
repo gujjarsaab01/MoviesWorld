@@ -39,7 +39,7 @@ const Cards = () => {
                 
                 className="bg-slate-900  rounded-lg max-w-40 overflow-hidden font-medium shadow-lg p-2 hover:-translate-y-2 cursor-pointer mt-6 transition-all duration-600"
               >
-                <img className=" h-60  md:h-72  rounded-lg " src={e.image} />
+                <img className=" h-60  md:h-72  rounded-lg " src={e.image} alt='' />
                 <h1>
                   {" "}
                   {e.title.length > 20
