@@ -81,7 +81,7 @@ const Reviews = ({ id, prevRating, userRated }) => {
       setReviewsLoading(false);
     }
     getData();
-  }, [newAdded]);
+  }, [newAdded, id]);
   
   return (
     <div className="mt-2  border-t-2 border-gray-700 w-full">
